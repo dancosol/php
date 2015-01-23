@@ -54,6 +54,7 @@ RUN buildDeps=" \
 		$PHP_EXTRA_CONFIGURE_ARGS \
 		--disable-cgi \
 		--enable-mysqlnd \
+		--enable-zip \
 		--with-curl \
 		--with-openssl \
 		--with-readline \
